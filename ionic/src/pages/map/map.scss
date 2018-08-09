@@ -1,0 +1,19 @@
+page-map {
+    #map {
+        height: 100%;
+    }
+    .bar.bar-header {
+        background: rgba(255,0,0,.5);
+        border-bottom-width: 0;
+      }
+       
+      .bar.bar-header h1 {
+        color: black !important;
+      }
+       
+       
+      .scroll-content {
+        overflow: visible !important;
+      }
+}
+

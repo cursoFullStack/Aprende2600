@@ -1,0 +1,7 @@
+{
+  "name": "aprende2600",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

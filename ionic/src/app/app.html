@@ -1,0 +1,57 @@
+<ion-menu id=no_autenticado [content]="nav">
+    <ion-content>
+        <ion-list>
+            <ion-list-header>
+                Header
+                <ion-avatar>
+                    <img src="assets/imgs/default-user.png" >
+                </ion-avatar>
+        </ion-list-header>
+            <button ion-item>
+                <ion-icon item-left name="home"></ion-icon>
+                Inicio
+            </button>
+            
+            <button ion-item>
+                    <ion-icon item-left name="home"></ion-icon>
+                    Inicio
+            </button>
+        </ion-list>
+        <ion-list>
+            <button ion-item>
+                <ion-icon item-left name="home"></ion-icon>
+                Inicio2
+            </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+
+<ion-menu id=autenticado [content]="nav">
+        <ion-content>
+            <ion-list>
+                <ion-list-header>
+                    Header
+                    <ion-avatar>
+                        <img src="assets/imgs/default-user.png" >
+                    </ion-avatar>
+            </ion-list-header>
+                <button ion-item>
+                    <ion-icon item-left name="home"></ion-icon>
+                    Inicio
+                </button>
+                
+                <button ion-item>
+                        <ion-icon item-left name="home"></ion-icon>
+                        Inicio
+                </button>
+            </ion-list>
+            <ion-list>
+                <button ion-item>
+                    <ion-icon item-left name="home"></ion-icon>
+                    Inicio2
+                </button>
+            </ion-list>
+        </ion-content>
+    </ion-menu>
+
+<ion-nav #nav [root]="rootPage"></ion-nav>
